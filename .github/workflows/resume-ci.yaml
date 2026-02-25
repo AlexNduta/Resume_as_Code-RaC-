@@ -18,7 +18,6 @@ jobs:
           cache: 'pip'
       - name: Install Dependencies
         run: |
-          pip install -r --upgrade pip
           pip install -r requirements.txt
           playwright install chromium --with-deps
 
