@@ -1,0 +1,80 @@
+<body>
+    <header>
+        <h1>{{ contact.name }}</h1>
+        <p class="contact-info">
+            <strong>{{ contact.title }}</strong><br>
+            Email: <a href="mailto:{{ contact.email }}">{{ contact.email }}</a> |
+            Phone: {{ contact.phone }} |
+            <a href="{{ contact.linkedin }}" target="_blank">LinkedIn</a> |
+            <a href="{{ contact.github }}" target="_blank">GitHub</a> |
+            <a href="{{ contact.blog }}" target="_blank">Blog</a> |
+            Location: {{ contact.location }}
+        </p>
+    </header>
+
+    <section id="summary">
+        <h2>Summary</h2>
+        <p>{{ summary }}</p>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        {% for job in experience %}
+        <article>
+            <h3>{{ job.title }}</h3>
+            <div class="job-details">
+                <span>{{ job.company }}</span>
+                <span>{{ job.dates }}</span>
+            </div>
+            <ul>
+                {% for bullet in job.bullets %}
+                <li>{{ bullet }}</li>
+                {% endfor %}
+            </ul>
+        </article>
+        {% endfor %}
+    </section>
+
+    <section id="skills">
+        <h2>TECHNICAL SKILLS</h2>
+        <ul>
+            {% for skill in skills %}
+            <li><span class="skill-category">{{ skill.category }}:</span> {{ skill.details }}</li>
+            {% endfor %}
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>SELECTED TECHNICAL PROJECTS</h2>
+        <ul>
+            {% for project in projects %}
+            <li>
+                <a href="{{ project.url }}" target="_blank"><strong>{{ project.title }}</strong></a> 
+                <ul>
+                    {% for bullet in project.bullets %}
+                    <li>{{ bullet }}</li>
+                    {% endfor %}
+                </ul>
+            </li>
+            {% endfor %}
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            {% for edu in education %}
+            <li><strong>{{ edu.degree }}</strong> - <a href="{{ edu.url }}" target="_blank">{{ edu.school }}</a> | {{ edu.dates }}</li>
+            {% endfor %}
+        </ul>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            {% for cert in certifications %}
+            <li>{{ cert }}</li>
+            {% endfor %}
+        </ul>
+    </section>
+</body>
