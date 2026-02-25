@@ -1,0 +1,22 @@
+# data/base.yaml
+contact:
+  title: "DevOps Systems Engineer"
+  location: "Germany"
+
+summary: >
+  and containerized architectures.
+
+education:
+  - degree: "Nano-Degree, Software Engineering"
+    school: "ALX Africa"
+    dates: "2023-2024"
+    url: "https://www.alxafrica.com/about/"
+  - degree: "Diploma, Information Technology"
+    school: "Thika Technical Training Institute"
+    dates: "2017–2022"
+    url: "https://thikatechnical.ac.ke/"
+
+certifications:
+  - "Certified AWS Solutions Architect"
+  - "Certified AWS Cloud Practitioner"
+  - "Certified Linux Administrator ProLUG"

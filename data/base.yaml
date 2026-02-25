@@ -1,0 +1,46 @@
+# data/base.yaml
+contact:
+  name: "Alex Kinyanjui Nduta"
+  title: "Systems Engineer"
+  location: "Kenya"
+
+summary: >
+  Highly accomplished Systems Engineer with over 5 years of experience specializing in Linux (Debian/UCS) and Windows server environments. 
+  I have a proven expertise in managing 1500+ node networks with 99.9% uptime and leading the migration of legacy services to modern IaC (Ansible, Terraform) 
+  and containerized architectures.
+
+experience:
+  - title: "Snr Server/Software Specialist - Site Reliability"
+    company: "St Christopher's International School (SCIS)"
+    dates: "2024–Present (promoted)"
+    bullets:
+      - "Leadership: Directed IT operations for 700+ users, maintaining 99.8% system uptime and leading a team of 3 technicians."
+      - "Automation: Engineered IaC workflows using Ansible and PowerShell, reducing provisioning time from 4 hours to 30 minutes."
+      - "SRE: Reduced MTTR by 30% through proactive monitoring and structured incident response protocols."
+      # ... add the rest
+
+skills:
+  - category: "Private Cloud & Platform Engineering"
+    details: "Experience in public(AWS, GCP) and private Open Source cloud environments such as Proxmox, XCP-ng and multi-tenant infrastructure; AWS Certified Solutions Architect."
+  # ... add the rest
+  
+projects:
+  - title: "Enterprise Odoo SaaS Platform | Python, Docker, Kubernetes, PostgreSQL"
+    url: "https://github.com/AlexNduta/Odoo-Setup"
+    bullets:
+      - "Architected and deployed a multi-tenant ERP solution for a live commercial client, ensuring 99.9% uptime and data isolation."
+      - "Engineered automated backup and recovery workflows for PostgreSQL, securing critical business data."
+
+education:
+  - degree: "Nano-Degree, Software Engineering"
+    school: "ALX Africa"
+    dates: "2023-2024"
+    url: "https://www.alxafrica.com/about/"
+  - degree: "Diploma, Information Technology"
+    school: "Thika Technical Training Institute"
+    dates: "2017–2022"
+    url: "https://thikatechnical.ac.ke/"
+
+certifications:
+  - "Certified AWS Solutions Architect"
+  - "Certified AWS Cloud Practitioner"

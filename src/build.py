@@ -3,6 +3,12 @@ import sys
 import os
 from jinja2 import Environment, FileSystemLoader
 from playwright.sync_api import sync_playwright
+from dotenv import load_dotenv
+
+
+# load enviroment variables in the .env file
+load_dotenv()
+
 
 def deep_merge(base, override):
     """Recursively merge override dictionary into base dictionary."""
@@ -17,6 +23,12 @@ def main(variant_file=None):
     print("[1/5] Loading base.yaml...")
     with open('data/base.yaml', 'r') as f:
         data = yaml.safe_load(f)
+    data['contact']['email'] = os.getenv('RESUME_EMAIL', 'email@hidden.com')
+    data['contact']['phone'] = os.getenv('RESUME_PHONE', 'hidden phone number')
+    data['contact']['linkedin'] = os.getenv('RESUME_LINKEDIN', 'hidden_linkedin_url')
+    data['contact']['blog'] = os.getenv('RESUME_BLOG', 'hidden_blog_url')
+    data['contact']['github'] = os.getenv('RESUME_GITHUB', 'hidden_github__url')
+
 
     if variant_file and os.path.exists(variant_file):
         print(f"[2/5] Loading and merging variant: {variant_file}...")
