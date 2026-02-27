@@ -1,7 +1,6 @@
 # data/base.yaml
 contact:
   title: "DevOps Systems Engineer"
-  location: "Germany"
 
 summary: >
   Infrastructure Architect & Technical Lead with over 5 years of accelerated experience in engineering high-availability, production-grade systems. I have a proven track record for designing secure, repeatable Infrastructure-as-Code (IaC) environments and managing complex, multi-tenant SaaS and 3-tier architectures supporting high-concurrency workloads. Technical leader with experience directing IT operations for 1500+ devices and mentoring teams in SLA-driven incident response and modern DevOps methodologies. 
