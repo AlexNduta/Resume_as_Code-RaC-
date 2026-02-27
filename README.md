@@ -37,8 +37,8 @@ $ python3 src/build.py
 # run the script for the variant resume
 $ python3 src/build.py variant/safaricom.yaml
 
-- The PDF file will be generated in the `/dis` file
 ```
+- The PDF file will be generated in the `/dis` file
 
 
 
