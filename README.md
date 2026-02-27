@@ -38,6 +38,8 @@ $ python3 src/build.py
 $ python3 src/build.py variant/safaricom.yaml
 
 - The PDF file will be generated in the `/dis` file
+```
+
 
 
 ### Deploy(Auomated)
@@ -51,3 +53,8 @@ $ git push
  * Validate your YAMl
  * Build the PDF
  * Upload the final resume as an artifact in the `Actions` tab
+
+
+# ATS Optimisation
+- The template is built using sematic HTML using standard `<header>`, `<section>`, `<ul>` tags
+- Uses standard fonts(Arial)
