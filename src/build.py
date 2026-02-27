@@ -51,12 +51,13 @@ def main(variant_file=None):
         f.write(html_out)
 
     print("[4/5] Launching Playwright to generate PDF...")
-    output_dir = 'dist'
+    #output_dir = 'dist'
+    output_dir = 'output'
     os.makedirs(output_dir, exist_ok=True)
     pdf_path = os.path.join(output_dir, out_name)
 
     with sync_playwright() as p:
-        # Added Linux-friendly arguments to prevent silent hangs
+        # Linux-friendly arguments to prevent silent hangs
         browser = p.chromium.launch(args=["--no-sandbox", "--disable-dev-shm-usage"])
         page = browser.new_page()
         
@@ -68,7 +69,7 @@ def main(variant_file=None):
         page.pdf(path=pdf_path, format="A4", print_background=True, margin={"top": "0", "right": "0", "bottom": "0", "left": "0"})
         browser.close()
 
-    print(f"✅ Successfully generated {pdf_path}")
+    print(f"Successfully generated {pdf_path}")
 
 if __name__ == "__main__":
     variant = sys.argv[1] if len(sys.argv) > 1 else None
