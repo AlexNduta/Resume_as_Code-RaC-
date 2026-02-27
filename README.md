@@ -1,6 +1,6 @@
 # Resume as Code
 - The main goal of this project is to treat my CV as a software project. 
-Instead of using word or doing manual PDF edits, I use my experience in `YAML`, template it in `Jinja2` and automate the PDF generation using GitHub Actions.
+Instead of using word or doing manual PDF exports, I use my experience in `YAML`, template it in `Jinja2` and automate the PDF generation using GitHub Actions.
 
 
 # Workflow 
