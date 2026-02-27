@@ -42,7 +42,7 @@ $ python3 src/build.py variant/safaricom.yaml
 
 
 
-### Deploy(Auomated)
+3. ### Deploy(Auomated)
 - Simply push your changes to github
 ```sh
 $ git add .
