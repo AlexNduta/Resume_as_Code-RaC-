@@ -1,0 +1,20 @@
+# data/base.yaml
+contact:
+  title: "DevOps Systems Engineer"
+  location: "Germany"
+
+summary: >
+  Infrastructure Architect & Technical Lead with over 5 years of accelerated experience in engineering high-availability, production-grade systems. I have a proven track record for designing secure, repeatable Infrastructure-as-Code (IaC) environments and managing complex, multi-tenant SaaS and 3-tier architectures supporting high-concurrency workloads. vTechnical leader with experience directing IT operations for 1500+ devices and mentoring teams in SLA-driven incident response and modern DevOps methodologies. 
+
+skills:
+  - category: "Platform Infrastructure & Cloud"
+    details: "Advanced expertise in AWS focusing on EC2, S3, Lambda, and VPC to support scalable R&D workloads; proficient in managing multi-tenant infrastructure with a focus on data isolation and cost control."
+  - category: "Orchestration & MLOps Readiness"
+    details: "Mastery of Docker and Kubernetes for horizontal scaling and workload isolation; experienced in migrating legacy workloads to containerized environments optimized for performance and reliability."
+  - category: "Orchestration & MLOps Readiness"
+    details: "Mastery of Docker and Kubernetes for horizontal scaling and workload isolation; experienced in migrating legacy workloads to containerized environments optimized for performance and reliability."
+  - category: "Infrastructure as Code (IaC) & GitOps"
+    details: "Experience in Terraform for resource provisioning and Ansible for configuration management; proficient in Python, Bash, and PowerShell for building automated deployment frameworks and MCP server-style process automation."
+  - category: "Observability & Reliability"
+    details: "Architecting full-stack monitoring using Nagios, Grafana, Prometheus, and Splunk to maintain 99.9% uptime; specialized in tuning alerts and logging for operational insights and reducing MTTR by 30%"
+  - 

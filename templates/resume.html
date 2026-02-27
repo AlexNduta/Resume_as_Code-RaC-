@@ -1,3 +1,74 @@
+<style>
+        body {
+            font-family: Arial, sans-serif; /* Common, readable font for ATS compatibility */
+            font-size: 10.5pt; /* Slightly smaller font for compactness */
+            line-height: 1.5; /* Adjusted line height for cleaner look */
+            color: #333; /* Standard dark grey text */
+            margin: 15px; /* Reduced margin for more space */
+            max-width: 750px; /* Slightly reduced max-width for better page fit */
+            margin-left: auto; /* Center the content */
+            margin-right: auto; /* Center the content */
+            background-color: #f9f9f9; /* Light background for contrast */
+            padding: 15px; /* Reduced inner padding */
+            border-radius: 8px; /* Slightly rounded corners for aesthetic */
+            box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow */
+        }
+        h1, h2, h3 {
+            margin-top: 20px; /* Reduced top margin for headings */
+            margin-bottom: 8px; /* Reduced bottom margin for headings */
+            color: #2c3e50; /* Darker heading color */
+        }
+        h1 {
+            font-size: 1.8em; /* Slightly smaller for the main name */
+            text-align: center; /* Center the name */
+            margin-bottom: 5px;
+        }
+        h2 {
+            font-size: 1.4em; /* Section titles */
+            border-bottom: 1px solid #3498db; /* Thinner underline for section separation */
+            padding-bottom: 4px; /* Reduced padding below underline */
+            margin-top: 25px; /* Reduced top margin for sections */
+        }
+        h3 {
+            font-size: 1.1em; /* Job titles, sub-sections */
+            margin-bottom: 4px; /* Reduced bottom margin for sub-headings */
+            color: #34495e;
+        }
+        p {
+            margin-bottom: 8px; /* Reduced bottom margin for paragraphs */
+        }
+        ul {
+            list-style-type: disc; /* Standard disc bullets */
+            margin-left: 20px; /* Slightly reduced indentation for list items */
+            margin-bottom: 8px; /* Reduced bottom margin for lists */
+        }
+        li {
+            margin-bottom: 3px; /* Reduced spacing between list items */
+        }
+        a {
+            color: #3498db; /* Link color */
+            text-decoration: none; /* No underline by default */
+        }
+        a:hover {
+            text-decoration: underline; /* Underline on hover for interactivity */
+        }
+        .contact-info {
+            text-align: center; /* Center contact information */
+            margin-bottom: 15px; /* Reduced bottom margin */
+            font-size: 0.9em; /* Slightly smaller font for contact info */
+        }
+        .job-details {
+            display: flex; /* Use flexbox for company and dates */
+            justify-content: space-between; /* Space out elements */
+            font-style: italic;
+            font-size: 0.95em; /* Slightly smaller for job details */
+            margin-bottom: 4px; /* Reduced bottom margin */
+        }
+        .skill-category {
+            font-weight: bold; /* Bold skill categories */
+            margin-top: 8px; /* Reduced space between skill categories */
+        }
+    </style>
 <body>
     <header>
         <h1>{{ contact.name }}</h1>
