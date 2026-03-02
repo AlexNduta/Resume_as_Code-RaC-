@@ -1,0 +1,23 @@
+# data/base.yaml
+contact:
+  title: "DevOps Systems Engineer"
+
+summary: >
+  Senior Systems & DevOps Engineer with 5+ years of experience auditing, building, and optimizing cloud-native infrastructure. Expert in validating Infrastructure-as-Code (IaC) and container orchestration workflows to ensure security and reliability. Proven track record in ranking and optimizing CI/CD pipelines and monitoring scenarios, maintaining 99.9% uptime across complex environments. Highly detail-oriented with a focus on documenting system landscapes and providing technical feedback on engineering outputs.
+
+
+experience:
+  - title: "Snr Server/Software Specialist - Site Reliability"
+    bullets:
+      - "Feedback Loops: Provided quality feedback and code reviews for a team of 3 technicians, optimizing deployment scripts and reducing MTTR by 30%"
+      - "Documentation: Expertly documented system landscapes, processes, and structured incident response protocols"
+
+skills:
+  - category: "Cloud Engineering"
+    details: "Hands-on experience with AWS (EC2, S3, IAM, VPC) and multi-tenant infrastructure."
+  - category: "Container Orchestration"
+    details: "Expert-level validation of Kubernetes (Pods, Deployments, Services) and Docker workflows."
+  - category: "Observability Labeling"
+    details: "Proficiency in monitoring and observability tools including Prometheus, Grafana, and Splunk."
+  - category: "Automation Review"
+    details: "Proficient in Terraform resource provisioning and Ansible configuration management; advanced Python and Bash scripting skills."
