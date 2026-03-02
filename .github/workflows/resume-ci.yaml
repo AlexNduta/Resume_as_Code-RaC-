@@ -50,5 +50,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: compiled-resumes
-          path: dist/*.pdf
+          #path: dist/*.pdf
+          path: ouput/*.pdf
           retention-days: 14
