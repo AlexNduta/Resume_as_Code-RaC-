@@ -1,60 +1,98 @@
-# Resume as Code
-- The main goal of this project is to treat my CV as a software project. 
-Instead of using word or doing manual PDF exports, I use my experience in `YAML`, template it in `Jinja2` and automate the PDF generation using GitHub Actions.
+This is a fantastic start. To make this README look like it was written by a **Senior DevOps Engineer**, we should emphasize the **engineering principles** behind it (Everything-as-Code, Single Source of Truth, and CI/CD).
 
+Here is a professionally refactored version of your README. It fixes the typos (e.g., "HTLM," "pilex," "dis") and adds a "Why" section that highlights your DevOps mindset to recruiters.
 
-# Workflow 
-1. `Data Layer`: All my career details live here in `data/resume.yaml`
-2. `logic Layer:` A Python script (`src/build.py`) injects data into a HTLM template
-3. `Automation`: Every `git push` triggers github actions that spins up a headless browser and renders the resume and saves the pilex perfect PDF 
+---
 
-# Project Structure
-`data/`: contains the `resume.yaml` that contains base data such as my experiences, certificates. The infomation can be overriden by editing the `variants/`
-`templates/`: The HTML/Jinja2 source file that defines the layout and ATS-Friendly stying. 
-    > You can style this using CSS according to your preference
-`src/` contains the python script which is the brain handlin the PDF rendering and variant merging
-`.github/workflows/`: The CI/CD instructions for GitHub
+#  Resume-as-Code: Automated Career Pipeline
 
-# Setup and usage
-### 1. Update the content:
-- To change resume content, edit `data/resume.yaml`
-- Tailor the resume for a specific company using the company name e.g safaricom.yaml
-- create the file in the `variants/safaricom.yaml` containing only the fields you want to make edits to 
+##  Overview
 
-### 2. Run Locally
-- If you wnat to run the build locally on your machine:
- > make sure you have python3 and pip installed
+The core philosophy of this project is **Everything-as-Code**. Instead of treating a CV as a static document, this project treats it as a software product. By decoupling professional data from the visual presentation, I can automate the generation of tailored, ATS-optimized resumes using modern DevOps tooling.
 
- ```sh
+**Why this matters:**
+
+* **Single Source of Truth:** All career data lives in one YAML file.
+* **Toil Reduction:** No more manual formatting in Word or Google Docs.
+* **Automated Tailoring:** Generate job-specific variants in seconds using "overlays."
+* **Proven Competence:** The resume itself is proof of my CI/CD and automation skills.
+
+##  Architecture
+
+1. **Data Layer (`YAML`)**: Professional history, metrics, and certifications are stored as structured data.
+2. **Logic Layer (`Python/Jinja2`)**: A build engine injects the data into a semantic HTML5 template.
+3. **Automation Layer (`GitHub Actions`)**: A CI/CD pipeline triggers on every push, spins up a headless Chromium browser via **Playwright**, and renders a pixel-perfect PDF.
+
+##  Project Structure
+
+```bash
+├── .github/workflows/ # CI/CD pipeline definitions
+├── data/              # Single Source of Truth (resume.yaml)
+├── src/               # Python build engine (build.py)
+├── templates/         # Jinja2 HTML templates & CSS
+├── variants/          # Job-specific YAML overrides (e.g., mastercard.yaml)
+└── dist/              # Generated PDF output (git-ignored)
+
+```
+
+##  Setup & Usage
+
+### 1. Tailoring Your Resume
+
+To tailor your resume for a specific role (e.g., a "Safaricom" variant):
+
+1. Create `variants/safaricom.yaml`.
+2. Only include the fields you wish to override (e.g., a specific summary or highlighted bullet points).
+3. The build script will merge your variant with the base data automatically.
+
+### 2. Local Development
+
+Ensure you have Python 3.9+ installed.
+
+```sh
+# Install dependencies
 $ pip install -r requirements.txt
 
-# This is the headless browser that does the rendering
+# Install the headless browser engine
 $ playwright install chromium
 
-# Run the script for the base resume
+# Build the base resume
 $ python3 src/build.py
 
-# run the script for the variant resume
-$ python3 src/build.py variant/safaricom.yaml
+# Build a specific variant
+$ python3 src/build.py variants/safaricom.yaml
 
 ```
-- The PDF file will be generated in the `/dis` file
 
+### 3. Automated Deployment
 
+This project is designed for a **GitOps** workflow.
 
-3. ### Deploy(Auomated)
-- Simply push your changes to github
 ```sh
 $ git add .
-$ git commit -m "feat: AWS Cloud Practitioner"
+$ git commit -m "feat: added AWS Solutions Architect certification"
 $ git push
+
 ```
-- GitHub Actions will automatically:
- * Validate your YAMl
- * Build the PDF
- * Upload the final resume as an artifact in the `Actions` tab
+
+Once pushed, GitHub Actions validates the YAML schema, renders the PDF, and uploads the final document as an **Action Artifact**.
+
+## Tech Stack
+
+* **Data**: YAML
+* **Templating**: Jinja2 / HTML5 / CSS3
+* **Engine**: Python 3 / Playwright (Headless Chromium)
+* **CI/CD**: GitHub Actions
+
+## ATS Optimization
+
+The output PDF is engineered for **Applicant Tracking Systems**:
+
+* **Semantic HTML**: Uses standard `<header>`, `<section>`, and `<ul>` tags for clear parsing.
+* **Standard Fonts**: Relies on Arial/Sans-Serif for universal readability.
+* **Zero Tables**: Avoids complex layouts that break traditional ATS parsers.
 
 
-# ATS Optimisation
-- The template is built using sematic HTML using standard `<header>`, `<section>`, `<ul>` tags
-- Uses standard fonts(Arial)
+![Build process](./Build process.png')
+![Artifact output](./Build process.png')
+![Sample of CV](./Test_CV.png)

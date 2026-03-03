@@ -1,0 +1,22 @@
+# data/base.yaml
+contact:
+  title: "DevOps Systems Engineer"
+
+summary: >
+  DevOps Support & Site Reliability Engineer with 5+ years of experience maintaining high-availability production systems. Experience with AWS EC2 and Kubernetes troubleshooting. 
+  I have a proven track record of maintaining 99.9% uptime and reducing MTTR by 30%. 
+  Proficient in SQL (PostgreSQL/MySQL) and automated deployment monitoring via Jenkins and GitHub Actions. Grounded in ITIL principles for efficient incident resolution and cross-functional support operations.
+
+skills:
+  - category: "Cloud Operations and infrastructure support"
+    details: "Proficient in administering AWS EC2, S3, and VPC environments; specialized in analyzing and resolving cloud infrastructure bottlenecks and resource utilization issues."
+  - category: "Kubernetes and Container Troubleshooting"
+    details: "Hands-on operational support for Kubernetes clusters, including pod health monitoring, log analysis, and automated restarts. Experienced in verifying deployments and maintaining high availability in containerized environments."
+  - category: "Database & Middleware Maintenance"
+    details: "Strong SQL skills for querying and troubleshooting production database tables, with extensive experience in PostgreSQL and MySQL administration. Familiar with supporting distributed systems and messaging workflows."
+  - category: "Deployment & CI/CD Pipelines"
+    details: " Experience in managing automated deployments using Jenkins and GitHub Actions. Proficient in utilizing AWS developer tools (CodeBuild/CodeDeploy) and Git version control for environment consistency."
+  - category: "Observability & Incident Management"
+    details: "Deep experience with monitoring stacks including Nagios, Grafana, Prometheus, and Splunk to ensure high system availability. Grounded in ITIL principles and SLA-driven incident response, with a proven record of reducing MTTR by 30%."
+  - category: "Automation & Shell Scripting"
+    details: "Experience with Python, Bash, and PowerShell for automating routine operational tasks and support SOPs. Proficient in Ansible and Terraform for maintaining secure, repeatable infrastructure configurations."

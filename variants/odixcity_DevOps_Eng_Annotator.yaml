@@ -10,6 +10,24 @@ experience:
     bullets:
       - "Feedback Loops: Provided quality feedback and code reviews for a team of 3 technicians, optimizing deployment scripts and reducing MTTR by 30%"
       - "Documentation: Expertly documented system landscapes, processes, and structured incident response protocols"
+      - "Leadership: Directed IT operations for 700+ users, maintaining 99.8% system uptime and leading a team of 3 technicians."
+      - "Automation: Engineered IaC workflows using Ansible and PowerShell, reducing provisioning time from 4 hours to 30 minutes."
+      - "SRE: Reduced MTTR by 30% through proactive monitoring and structured incident response protocols."
+  - title: "Network Systems Administrator - Network Engineer"
+    company: "Network Systems Administrator - Network Engineer"
+    dates: "2022–2024"
+    bullets:
+      - "Enterprise Migration: Orchestrated the large-scale migration of 700 users to a Windows Server domain
+environment with zero data loss."
+      - "Network Reliability: Maintained 99.5% network uptime across 1500+ devices by administering Firewalls,
+VPNs, DNS, and DHCP."
+      - "Maintained 99.5% network uptime while managing upgrades, patches, and infrastructure improvements."
+      - "Automation: Developed custom Bash and Python scripts to automate routine system administration,
+increasing operational efficiency by 40%."
+      - "Performance Monitoring: Implemented Nagios monitoring solutions, resulting in an 80% reduction in issue
+identification and resolution time."
+
+
 
 skills:
   - category: "Cloud Engineering"
