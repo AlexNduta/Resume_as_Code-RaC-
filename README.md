@@ -1,9 +1,3 @@
-This is a fantastic start. To make this README look like it was written by a **Senior DevOps Engineer**, we should emphasize the **engineering principles** behind it (Everything-as-Code, Single Source of Truth, and CI/CD).
-
-Here is a professionally refactored version of your README. It fixes the typos (e.g., "HTLM," "pilex," "dis") and adds a "Why" section that highlights your DevOps mindset to recruiters.
-
----
-
 #  Resume-as-Code: Automated Career Pipeline
 
 ##  Overview
