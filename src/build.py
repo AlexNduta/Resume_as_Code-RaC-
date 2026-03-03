@@ -51,8 +51,9 @@ def main(variant_file=None):
         f.write(html_out)
 
     print("[4/5] Launching Playwright to generate PDF...")
-    #output_dir = 'dist'
-    output_dir = 'output'
+    output_dir = 'dist'
+    #output_dir = 'output'
+
     os.makedirs(output_dir, exist_ok=True)
     pdf_path = os.path.join(output_dir, out_name)
 

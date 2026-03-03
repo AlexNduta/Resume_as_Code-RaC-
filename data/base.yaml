@@ -53,7 +53,7 @@ system issues."
   
 projects:
   - title: "Resume-as-Code: Automated Career Pipeline | YAML, Python, Jinja2, GitHub Actions"
-    url: ""
+    url: "https://github.com/AlexNduta/Resume_as_Code-RaC-"
     bullets:
       - "Engineered a 'Single source of Truth' resume system using YAML for data management and Jinja2 for dynamic HTML templating"
       - "Architechted a CI/CD pipeline via Github Actions that automatically triggers on every `git push` to validate a data scheme, render the HTML and export a pixel-perfect PDF"
