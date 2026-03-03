@@ -93,6 +93,11 @@ The output PDF is engineered for **Applicant Tracking Systems**:
 * **Zero Tables**: Avoids complex layouts that break traditional ATS parsers.
 
 
-![Build process](./Build process.png')
-![Artifact output](./Build process.png')
+# The build process
+![Build process](./Build-process.png)
+
+# The artiifact output
+![Artifact output](./Artifact.png)
+
+# CV ouput sample
 ![Sample of CV](./Test_CV.png)
