@@ -1,0 +1,78 @@
+# data/base.yaml
+contact:
+  title: "DevOps Systems Engineer"
+
+summary: >
+  Senior SRE & Hybrid Cloud Architect with 5+ years of experience engineering high-availability Public and Private Cloud environments. Expert in building and managing Proxmox virtualization clusters using Terraform and Ansible and orchestrating Kubernetes on both bare-metal and AWS. Proven track record of reducing operational costs by 20% and maintaining 99.9% uptime through a "Everything-as-Code" philosophy. Specialized in SaaS infrastructure, cost optimization, and proactive monitoring.
+
+experience:
+  - title: "Snr Server/Software Specialist - Site Reliability"
+    company: "St Christopher's International School (SCIS)"
+    dates: "2024–Present (promoted)"
+    bullets:
+      - "Greenfield Infrastructure Architect: Designed and deployed a complete physical and logical server architecture using Proxmox, fully managed via Terraform and Ansible for rapid, repeatable deployment."
+      - "Network Security Engineering: Implemented Sophos XG Firewall with custom VLAN segmentation and strict firewall rules to isolate server traffic from end-user networks, improving security posture by 100%."
+      - "Cost Optimization & Efficiency: Reduced cloud infrastructure spend by 20% by migrating non-elastic workloads to a hybrid private cloud and reduced provisioning time from 4 hours to 30 minutes (87% improvement)"
+      - "Leadership: Directed IT operations for 700+ users, maintaining 99.8% system uptime and leading a team of 3 technicians."
+      - "Private Cloud Provisioning: Automated the deployment of VMs and Linux containers using Terraform and Ansible, creating a repeatable 'Push-Button' infrastructure model."
+      - "SRE: Reduced MTTR by 30% through proactive monitoring and structured incident response protocols."
+  - title: "Network Systems Administrator - Network Engineer"
+    company: "Network Systems Administrator - Network Engineer"
+    dates: "2022–2024"
+    bullets:
+      - "Enterprise Migration: Orchestrated the large-scale migration of 700 users to a Windows Server domain
+environment with zero data loss."
+      - "Network Reliability: Maintained 99.5% network uptime across 1500+ devices by administering Firewalls,
+VPNs, DNS, and DHCP."
+      - "Maintained 99.5% network uptime while managing upgrades, patches, and infrastructure improvements."
+      - "Automation: Developed custom Bash and Python scripts to automate routine system administration,
+increasing operational efficiency by 40%."
+      - "Performance Monitoring: Implemented Nagios monitoring solutions, resulting in an 80% reduction in issue
+identification and resolution time."
+s
+skills:
+  - category: "Cloud & Virtualization"
+    details: "AWS (Solutions Architect), Private Cloud (Proxmox/KVM), GCP, DigitalOcean."
+  - category: "Infrastructure as Code"
+    details: "Terraform (Proxmox & AWS providers), Ansible (Automation & Configuration), Terragrunt."
+  - category: "Container Orchestration"
+    details: "On-prem Kubernetes (K8s), AWS EKS, Docker, Cloud Run."
+  - category: "Network Security & Infrastructure"
+    details: "Sophos XG Firewall, VLAN Segmentation (802.1Q), Firewall Rules/NAT, Snort IDS, VPN (IPsec/OpenVPN/L2TP)."
+  - category: "System methodology"
+    details: "Linux (Debian/Ubuntu/CentOS), Windows Server, ITIL, SLA-driven Incident Response."
+  - category: "Observability"
+    details: "Prometheus, Grafana, Nagios, Splunk."
+  - category: "Observability & Incident Management"
+    details: "Deep experience with monitoring stacks including Nagios, Grafana, Prometheus, and Splunk to ensure high system availability. Grounded in ITIL principles and SLA-driven incident response, with a proven record of reducing MTTR by 30%."
+  - category: "Automation & Shell Scripting"
+    details: "Experience with Python, Bash, and PowerShell for automating routine operational tasks and support SOPs. Proficient in Ansible and Terraform for maintaining secure, repeatable infrastructure configurations."
+
+projects:
+  - title: "Private Cloud Lab (Homelab) | Proxmox, Terraform, Ansible, K8s"
+    url: "https://github.com/AlexNduta/Home_Lab.git"
+    bullets:
+      - "Architected a high-availability private cloud on bare-metal hardware, managing the full lifecycle of VMs and Kubernetes nodes via Infrastructure-as-Code."
+      - "Network Logical Design: Configured complex 802.1Q VLANs and storage persistence (CSI) to simulate enterprise-grade production environments."
+  - title: "Resume-as-Code: Automated Career Pipeline | YAML, Python, Jinja2, GitHub Actions"
+    url: "https://github.com/AlexNduta/Resume_as_Code-RaC-"
+    bullets:
+      - "Engineered a 'Single source of Truth' resume system using YAML for data management and Jinja2 for dynamic HTML templating"
+      - "Architechted a CI/CD pipeline via Github Actions that automatically triggers on every `git push` to validate a data scheme, render the HTML and export a pixel-perfect PDF"
+      - "Implemented variant management to programatically generate tailored resumes for different roles eliminating manual formating errors"
+  - title: "Enterprise Odoo SaaS Platform | Python, Docker, Kubernetes, PostgreSQL"
+    url: "https://github.com/AlexNduta/Odoo-Setup"
+    bullets:
+      - "Architected and deployed a ulti-tenant ERP solution for a live commercial client, ensuring 99.9% uptime and data isolation."
+      - "Engineered automated backup and recovery workflows for PostgreSQL, securing critical business data."
+  - title: "Twender: 3-tier Distributed | Django, MySQL, Kubernetes, Docker:"
+    url: "https://alex.hostnoma.one/posts/twender/"
+    bullets:
+      - "Designed a decoupled microservice architecture consisting of Swagger UI, Django REST logic tier and MySQL data tier"
+      - "Orchestrated deployment using Kubernetes services and deployments to enable horizontal scaling and high availability"
+  - title: "Budgelify: High-concurrent API| FastAPI, Python, Linux, Kotlin:"
+    url: "https://alex.hostnoma.one/posts/budgetlify/"
+    bullets:
+      - "Developed a high-performance budgeting API integrated it with Jetpack Compose for the android client"
+      - "Automated the backend deployment on Linux environments, focus on API latency reduction and endpoint security"
+
