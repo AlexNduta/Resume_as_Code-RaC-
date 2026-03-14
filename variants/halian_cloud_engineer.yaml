@@ -1,0 +1,42 @@
+contact:
+  name:
+  title:
+  location:
+
+summary: >
+  Senior Cloud Engineer with 5+ years of experience architecting mission-critical Hybrid Cloud ecosystems. Expert in deploying scalable, hardened environments across AWS and On-Premises (Proxmox/KVM). Proven track record in driving 87% faster deployment cycles via Terraform and Ansible and maintaining 99.9% uptime for enterprise-scale platforms. Specialized in Network Security (Sophos/VLANs), Kubernetes orchestration, and automated IAM governance.
+
+experience:
+  - title: "Snr Server/Software Specialist - Site Reliability"
+    company: "St Christopher's International School (SCIS)"
+    dates: "2024–Present (promoted)"
+    bullets:
+      - "Hybrid Architecture Design: Engineered a Private Cloud backbone using Proxmox, managed entirely via Terraform, allowing for seamless workload migration between on-prem and AWS."
+      - "Security Hardening & IAM: Orchestrated Sophos XG Firewall configurations and VLAN isolation for 700+ users, ensuring strict environment hardening and data residency compliance."
+      - "Automation Leadership: Reduced environment provisioning time by 87% and MTTR by 30% by implementing SRE principles and automated incident response workflows."
+      - "Team Mentorship: Led a team of 3 technicians, transitioning the department to a GitOps workflow for all infrastructure updates."
+  - title: "Network Systems Administrator - Network Engineer"
+    company: "Network Systems Administrator - Network Engineer"
+    dates: "2022–2024"
+    bullets:
+      - "Enterprise Migration: Orchestrated the large-scale migration of 700 users to a Windows Server domain
+environment with zero data loss."
+      - "Network Reliability: Maintained 99.5% network uptime across 1500+ devices by administering Firewalls,
+VPNs, DNS, and DHCP."
+      - "Maintained 99.5% network uptime while managing upgrades, patches, and infrastructure improvements."
+      - "Automation: Developed custom Bash and Python scripts to automate routine system administration,
+increasing operational efficiency by 40%."
+      - "Performance Monitoring: Implemented Nagios monitoring solutions, resulting in an 80% reduction in issue
+identification and resolution time."
+s
+skills:
+  - category: "Hybrid & Virtualization"
+    details: "Proxmox VE, VMware, Bare-Metal Server Provisioning."
+  - category: "Public Cloud"
+    details: "AWS (Certified Solutions Architect), GCP (Cloud Run/Cloud SQL), Azure (Foundational)."
+  - category: "Security & Networking"
+    details: "Sophos XG Firewall, VLAN (802.1Q) Segmentation, IAM Role Hardening, VPN (Site-to-Site)."
+  - category: "Orchestration & CI/CD"
+    details: "Kubernetes (EKS/On-prem), Docker, GitHub Actions, GitLab CI/CD."
+  - category: "Observability"
+    details: "Prometheus, Grafana, Splunk, CloudWatch, Nagios."
