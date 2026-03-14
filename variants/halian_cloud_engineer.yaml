@@ -28,7 +28,7 @@ VPNs, DNS, and DHCP."
 increasing operational efficiency by 40%."
       - "Performance Monitoring: Implemented Nagios monitoring solutions, resulting in an 80% reduction in issue
 identification and resolution time."
-s
+
 skills:
   - category: "Hybrid & Virtualization"
     details: "Proxmox VE, VMware, Bare-Metal Server Provisioning."
