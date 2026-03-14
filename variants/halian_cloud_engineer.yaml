@@ -1,10 +1,6 @@
-contact:
-  name:
-  title:
-  location:
 
 summary: >
-  Senior Cloud Engineer with 5+ years of experience architecting mission-critical Hybrid Cloud ecosystems. Expert in deploying scalable, hardened environments across AWS and On-Premises (Proxmox/KVM). Proven track record in driving 87% faster deployment cycles via Terraform and Ansible and maintaining 99.9% uptime for enterprise-scale platforms. Specialized in Network Security (Sophos/VLANs), Kubernetes orchestration, and automated IAM governance.
+  Senior Cloud Engineer with 5+ years of experience architecting mission-critical Hybrid Cloud ecosystems. Experience in deploying scalable, hardened environments across AWS and On-Premises (Proxmox/KVM). Proven track record in driving 87% faster deployment cycles via Terraform and Ansible and maintaining 99.9% uptime for enterprise-scale platforms. Specialized in Network Security (Sophos/VLANs), Kubernetes orchestration, and automated IAM governance.
 
 experience:
   - title: "Snr Server/Software Specialist - Site Reliability"
