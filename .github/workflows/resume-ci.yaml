@@ -1,4 +1,4 @@
-na  me: Build resumes
+name: Build resumes
 
 on:
   push:
