@@ -1,0 +1,38 @@
+# yaml skelton template
+contact:
+  name:
+  title: 
+  location: 
+
+summary: >
+
+experience:
+  - title:
+    company: 
+    dates: 
+    bullets:
+      -
+      -
+  - title: 
+    company: 
+    bullets:
+      -
+      -
+skills:
+  - category:
+    details: 
+projects:
+  - title: 
+    bullets:
+        - 
+        -
+education:
+  - degree:
+    school: 
+    dates: 
+    url: 
+
+certifications:
+  -
+  -
+  -

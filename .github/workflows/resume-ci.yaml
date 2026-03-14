@@ -1,9 +1,12 @@
-name: Build resumes
+na  me: Build resumes
 
 on:
   push:
     branches: [ "main", "master"]
   workflow_dispatch: # run manualy from the UI
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true 
 jobs:
   build-pdfs:
     runs-on: ubuntu-latest
