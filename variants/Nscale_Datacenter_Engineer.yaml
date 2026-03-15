@@ -1,9 +1,4 @@
 # yaml skelton template
-contact:
-  name:
-  title: 
-  location: 
-
 summary: >
   Systems Engineer with 5+ years of experience architecting and executing Greenfield infrastructure projects. Experience in the physical and logical deployment of high-density server environments, including Proxmox virtualization clusters and Sophos network security. Proven track record in designing repeatable Infrastructure-as-Code (IaC) patterns using Terraform and Ansible to reduce deployment "toil" and ensure 99.9% system reliability.
 
