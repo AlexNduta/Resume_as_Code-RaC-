@@ -1,0 +1,50 @@
+# yaml skelton template
+contact:
+  name:
+  title: 
+  location: 
+
+summary: >
+  Systems Engineer with 5+ years of experience architecting and executing Greenfield infrastructure projects. Experience in the physical and logical deployment of high-density server environments, including Proxmox virtualization clusters and Sophos network security. Proven track record in designing repeatable Infrastructure-as-Code (IaC) patterns using Terraform and Ansible to reduce deployment "toil" and ensure 99.9% system reliability.
+
+experience:
+  - title: "Snr Server/Software Specialist - Site Reliability"
+    company: "St Christopher's International School (SCIS)"
+    dates: "2024–Present (promoted)"
+    bullets:
+      - "Greenfield DC Deployment: Designed and executed the complete physical and logical rollout of the school’s server infrastructure; managed rack layout, cabling standards, and hypervisor initialization (Proxmox)."
+      - "Network and Security Hardening: Configured and deployed Sophos XG Firewalls with strict VLAN isolation, ensuring secure communication paths and environment hardening for 700+ users."
+      - "Standardized Deployments: Developed Ansible playbooks to automate the 'Day 0' configuration of Linux servers, reducing provisioning time from 4 hours to 30 minutes."
+      - "On-Site SME: Acted as the lead subject matter expert for all infrastructure migrations, maintaining 99.8% uptime and mentoring a team of 3 technicians."
+      - 
+  - title: "Network Systems Administrator - Network Engineer"
+    company: "Network Systems Administrator - Network Engineer"
+    dates: "2022–2024"
+    bullets:
+      - "Enterprise Migration: Orchestrated the large-scale migration of 700 users to a Windows Server domain
+environment with zero data loss."
+      - "Network Reliability: Maintained 99.5% network uptime across 1500+ devices by administering Firewalls,
+VPNs, DNS, and DHCP."
+      - "Maintained 99.5% network uptime while managing upgrades, patches, and infrastructure improvements."
+      - "Automation: Developed custom Bash and Python scripts to automate routine system administration,
+increasing operational efficiency by 40%."
+      - "Performance Monitoring: Implemented Nagios monitoring solutions, resulting in an 80% reduction in issue
+identification and resolution time."
+
+skills:
+  - category: "DC Operations"
+    details: "Rack Layout & Design, Structured Cabling, BOM Validation, Power/Cooling Capacity Planning."
+  - category: "Infrastructure"
+    details: "Proxmox VE (KVM/LXC), Bare-metal Server Provisioning, High-Density Compute."
+  - category: "Network Engineering"
+    details: "Sophos XG Firewall, VLAN (802.1Q) Segmentation, L2/L3 Switching, NAT/Routing."
+  - category: "Automation"
+    details: "Terraform (AWS & Proxmox), Ansible, GitHub Actions (CI/CD), Python/Bash Scripting."
+  - category: "Observerbility"
+    details: "Nagios, Grafana, Prometheus, Splunk (RCA & Performance Tuning)."
+projects:
+  - title: "Private Cloud Infrastructure Lab | Proxmox, Terraform, Ansible, K8s"
+    url: "https://github.com/AlexNduta/Home_Lab"
+    bullets:
+      - "Built a bare-metal Hybrid Cloud lab to validate hardware interoperability and structured cable designs for high-density compute scenarios."
+      - "Managed the full lifecycle of Kubernetes nodes via IaC, simulating the orchestration required for GPU-accelerated workloads."
