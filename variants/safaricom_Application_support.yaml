@@ -1,0 +1,55 @@
+# yaml skelton template
+
+summary: >
+Senior SRE & DevOps Engineer with 5+ years of experience maintaining high-availability financial and ERP applications. Expert in L3 Application Support, leveraging deep-dive SQL and Python troubleshooting to resolve production incidents and drive 99.999% availability. Proven track record in reducing MTTR by bridging the gap between infrastructure stability and application-layer performance. Grounded in ITIL principles with a focus on systemic Root Cause Analysis (RCA)
+experience:
+  - title: "Snr Server/Software Specialist - Site Reliability"
+    company: "St Christopher's International School (SCIS)"
+    dates: "2024–Present (promoted)"
+    bullets:
+      - "Service Ownership & L3 Support: Act as the final escalation point for core ERP and financial applications (Odoo); performing backend Python debugging and SQL optimization to resolve critical production incidents"
+      - "Greenfield Infrastructure Architect: Designed and deployed a complete physical and logical server architecture using Proxmox, fully managed via Terraform and Ansible for 99.8% system reliability."
+      - "Security & Network Engineering: Implemented Sophos XG Firewalls with VLAN isolation, securing data paths for 700+ users and hardening the environment against lateral movement."
+      - "Automation Excellence: Engineered CI/CD pipelines and Ansible playbooks that reduced server provisioning time by 87% (from 4 hours to 30 minutes)."
+      - "Leadership: Direct a team of 3 technicians, fostering an SRE mindset to reduce MTTR by 30% through proactive monitoring and structured SOPs."
+  - title: "Network Systems Administrator - Network Engineer"
+    company: "Network Systems Administrator - Network Engineer"
+    dates: "2022–2024"
+    bullets:
+      - "Enterprise Migration: Orchestrated the large-scale migration of 700 users to a Windows Server domain
+environment with zero data loss."
+      - "Network Reliability: Maintained 99.5% network uptime across 1500+ devices by administering Firewalls,
+VPNs, DNS, and DHCP."
+      - "Maintained 99.5% network uptime while managing upgrades, patches, and infrastructure improvements."
+      - "Automation: Developed custom Bash and Python scripts to automate routine system administration,
+increasing operational efficiency by 40%."
+      - "Performance Monitoring: Implemented Nagios monitoring solutions, resulting in an 80% reduction in issue
+identification and resolution time."
+
+skills:
+  - category: "Application Support & L3 Ops"
+    details: "Incident/Problem Management (ITIL), Root Cause Analysis (RCA), SQL (PostgreSQL/MySQL), Java/Angular (Code Review & Debugging)."
+  - category: "Cloud & Hybrid Infrastructure"
+    details: "AWS (Certified Solutions Architect), Private Cloud (Proxmox VE), GCP (Cloud Run), Azure"
+  - category: "Infrastructure as Code (IaC)"
+    details: "Terraform (Multi-Provider), Ansible (Linux & Windows AD/GPO), GitHub Actions, Jenkins."
+  - category: "Networking & Security"
+    details: "Sophos XG Firewall, VLAN Segmentation (802.1Q), Site-to-Site IPsec VPN, SSL-VPN, NAT/Routing."
+  - category: "Containerization"
+    details: "Kubernetes (On-prem & EKS), Helm Charts, Docker, ArgoCD."
+  - category: "Observability"
+    details: "Prometheus, Grafana, Nagios, Splunk, ELK Stack, Performance Tuning."
+projects:
+  - title: "Resume-as-Code | Python, Jinja2, GitHub Actions, Playwright"
+    bullets:
+        - "GitOps Implementation: Automated professional CV deployment via a CI/CD pipeline; utilizes YAML data and GitHub Secrets (PII masking) to render an ATS-optimized PDF on every git push." 
+  - title: "Private Cloud Operations Lab (Homelab) | Proxmox, Terraform, Ansible, K8s"
+    url: ""
+    bullets:
+      - "Architected a bare-metal private cloud managing the full lifecycle of VMs and Kubernetes nodes via IaC, simulating high-availability production environments."
+      - "Configured 802.1Q VLANs and IPsec VPNs to validate network security policies and traffic isolation."
+  - title: "Enterprise Odoo SaaS (Financial Integration) | Python, Docker, PostgreSQL"
+    url: ""
+    bullets:
+      - "Architected a multi-tenant ERP platform; managed production support including complex SQL troubleshooting and integration patches for payroll and accounting modules."
+      - "Implemented automated backup/recovery workflows ensuring zero data loss for critical financial data."
