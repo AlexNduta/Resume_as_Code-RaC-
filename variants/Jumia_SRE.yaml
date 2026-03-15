@@ -1,0 +1,57 @@
+# yaml skelton template
+contact:
+  titlei: "Site Reliability Engineer" 
+
+summary: >
+  DevOps & Site Reliability Engineer with 5+ years of experience building and scaling high-availability infrastructure for distributed SaaS platforms.  Experience with AWS, managed and on-prem Kubernetes orchestration, with a focus on GitOps (ArgoCD) and Infrastructure-as-Code (Terraform/Ansible). Proven track record of maintaining 99.9% uptime for 1500+ devices and accelerating deployment velocity by 87%. Passionate about leveraging automation to solve complex infrastructure challenges.
+experience:
+  - title: "Snr Server/Software Specialist - Site Reliability"
+    company: "St Christopher's International School (SCIS)"
+    dates: "2024–Present (promoted)"
+    bullets:
+      - " Platform Engineering: Architected a Hybrid Cloud environment using Proxmox and AWS, managed via Terraform, ensuring environment parity and 99.8% system reliability."
+
+      - "Deployment Automation: Engineered Ansible playbooks and GitHub Actions pipelines that reduced production provisioning time from 4 hours to 30 minutes."
+
+      - "Security & Networking: Deployed Sophos XG Firewalls and optimized VLAN-level network isolation, ensuring secure data paths for 700+ users across a micro-segmented network. "
+
+      - "Incident Response: Led a team of 3 to reduce MTTR by 30% through proactive observability using Grafana and Prometheus."
+  - title: "Network Systems Administrator - Network Engineer"
+    company: "Network Systems Administrator - Network Engineer"
+    dates: "2022–2024"
+    bullets:
+      - "Enterprise Migration: Orchestrated the large-scale migration of 700 users to a Windows Server domain
+environment with zero data loss."
+      - "Network Reliability: Maintained 99.5% network uptime across 1500+ devices by administering Firewalls,
+VPNs, DNS, and DHCP."
+      - "Maintained 99.5% network uptime while managing upgrades, patches, and infrastructure improvements."
+      - "Automation: Developed custom Bash and Python scripts to automate routine system administration,
+increasing operational efficiency by 40%."
+      - "Performance Monitoring: Implemented Nagios monitoring solutions, resulting in an 80% reduction in issue
+identification and resolution time."
+
+
+skills:
+  - category: "Cloud and Ochestration"
+    details:  "AWS(Certified SOlutions Architect), Kubernetes(EKS & On-prem)"
+
+  - category: "Infrastructure as Code"
+    details: "Terraform (AWS/GCP/Proxmox), Ansible, Terragrunt, Packer."
+  - category: "CI/CD & GitOps"
+    details: "GitHub Actions, ArgoCD, GitLab CI/CD, Jenkins."
+  - category: "Observability & Logging"
+    details: "Prometheus, Grafana, Splunk, ELK Stack, Nagios."
+  - category: "Networking & Security"
+    details: "Sophos XG Firewall, VLAN Segmentation, IAM Hardening, mTLS, VPN."
+  - category: "Scripting"
+    details: "Python (Jinja2), Bash, PowerShell, Go (Basic)"
+projects:
+  - title: "Hybrid Kubernetes Lab | K8s, Helm, Terraform, Proxmox"
+    url: ""
+    bullets:
+        - "Designed a high-availability Kubernetes cluster on bare-metal; utilized Helm Charts for application lifecycle management and Terraform for automated node scaling."
+        - "Implemented GitOps principles to manage cluster configurations, simulating the r'Single Source of Truth' required for Jumia’s microservices."
+  - title: "Resume-as-Code | Python, Jinja2, GitHub Actions"
+    url: "https://github.com/AlexNduta/Resume_as_Code-RaC-"
+    bullets:
+      - "GitOps Implementation: Automated my CV deployment via GitHub Actions; utilizes YAML data and Jinja2 templates to render ATS-friendly artifacts on every git push."
