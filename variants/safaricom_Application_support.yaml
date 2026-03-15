@@ -1,7 +1,8 @@
 # yaml skelton template
 
 summary: >
-Senior SRE & DevOps Engineer with 5+ years of experience maintaining high-availability financial and ERP applications. Expert in L3 Application Support, leveraging deep-dive SQL and Python troubleshooting to resolve production incidents and drive 99.999% availability. Proven track record in reducing MTTR by bridging the gap between infrastructure stability and application-layer performance. Grounded in ITIL principles with a focus on systemic Root Cause Analysis (RCA)
+  Senior SRE & DevOps Engineer with 5+ years of experience maintaining high-availability financial and ERP applications. Expert in L3 Application Support, leveraging deep-dive SQL and Python troubleshooting to resolve production incidents and drive 99.999% availability. Proven track record in reducing MTTR by bridging the gap between infrastructure stability and application-layer performance. Grounded in ITIL principles with a focus on systemic Root Cause Analysis (RCA)
+
 experience:
   - title: "Snr Server/Software Specialist - Site Reliability"
     company: "St Christopher's International School (SCIS)"
