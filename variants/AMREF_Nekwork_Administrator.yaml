@@ -6,6 +6,8 @@ summary: >
   Senior Network Administrator with 5+ years of experience designing and securing high-density campus networks. Expert in Cloud-Managed Infrastructure, specializing in VLAN segmentation (802.1Q), enterprise wireless deployment, and firewall administration. Proven track record in managing 1500+ devices and maintaining 99.8% uptime in educational environments. Skilled in Cisco/Meraki-style dashboard management, automated monitoring (Nagios/Grafana), and technical team leadership.
 experience:
   - title: "Snr Server/Software Specialist - Site Reliability"
+    company: "St Christopher's International School (SCIS)"
+    dates: "2024–Present (promoted)"
     bullets: "Campus Network Orchestration: Designed and maintained a robust campus network for 700+ users and 1500+ devices, ensuring 99.8% availability for academic and administrative operations."
       - "Security & Segmentation: Implemented strict VLAN-level isolation and firewall policies using Sophos XG (Cloud-managed), reducing unauthorized access incidents by 100%."
       - "Wireless Optimization: Managed large-scale wireless infrastructure, optimizing signal density and load balancing for high-occupancy areas (classrooms/lecture halls).i "
