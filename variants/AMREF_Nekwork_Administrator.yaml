@@ -13,6 +13,12 @@ experience:
       - "Security & Segmentation: Implemented strict VLAN-level isolation and firewall policies using Sophos XG (Cloud-managed), reducing unauthorized access incidents by 100%."
       - "Wireless Optimization: Managed large-scale wireless infrastructure, optimizing signal density and load balancing for high-occupancy areas (classrooms/lecture halls).i "
       - "Leadership & Strategy: Supervise a team of 3 technicians; lead ICT strategic planning sessions and manage vendor relationships for network expansions."
+  - title: "Network Systems Administrator – Network Engineer"
+    company: "St Christopher's International School (SCIS)"
+    dates: "2022 – 2024"
+    bullets:
+      - "Enterprise Administration: Managed the migration of 700+ users to a new domain environment; performed regular network health audits and performance tuning."
+      - "Technical Support: Provided L2/L3 support for network-related issues, resolving connectivity problems for staff and students with an 80% faster resolution rate via Nagios monitoring."
 skills:
   - category: "Network Infrastructure"
     details: "LAN/WAN Design, SOPHOS Central Dashboard, Switching & Routing, TCP/IP, DHCP/DNS."
